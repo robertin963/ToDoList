@@ -8,12 +8,15 @@
       "distribution": "internal"
     },
     "preview": {
+      "extends": "production",
       "android": {
         "buildType": "apk"
       },
       "distribution": "internal"
     },
-    "production": {}
+    "production": {
+      "node": "16.13.0"
+    }
   },
   "submit": {
     "production": {}
