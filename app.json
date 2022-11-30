@@ -2,6 +2,11 @@
   "expo": {
     "name": "toDoList",
     "slug": "toDoList",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +14,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "cover",
-      "backgroundColor": "#1A1A1A"
+      "backgroundColor": "#1E6F9F"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,16 +23,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.atomicapp.toDoList"
     },
     "android": {
+      "package": "com.atomicapp.toDoList",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#1E6F9F"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "747fb107-75b1-4adf-a38f-10c87d63635c"
+      }
     }
   }
 }
