@@ -80,7 +80,6 @@ export const styles = StyleSheet.create({
   },
   flatList: {
     marginTop: 20,
-    height: "90%"
 
   },
   separator: {
